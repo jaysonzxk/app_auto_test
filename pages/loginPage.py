@@ -1,5 +1,5 @@
 import time
-from common.baseLog import Log
+from common.baseLog import Log as log
 from common.basePage import BasePage
 from appium.webdriver.common.mobileby import MobileBy as By
 
@@ -19,10 +19,10 @@ class LoginPage(BasePage):
                 self.sliding_screen('left', '启动页滑屏操作')
                 continue
             else:
-                Log().info('登录开始。。。')
-                Log().info("输入用户名：{}".format(username))
+                log().info('登录开始。。。')
+                log().info("输入用户名：{}".format(username))
                 self.input_text(username, self.username_inputBox, '用户名')
-                Log().info("输入密码：{}".format(password))
+                log().info("输入密码：{}".format(password))
                 self.input_text(password, self.password_inputBox, '密码')
                 self.click_button(self.loginBtn, '登录按钮')
                 self.click_button(self.tipsClk1, '提示框1')
@@ -32,6 +32,10 @@ class LoginPage(BasePage):
 
     @staticmethod
     def get_classification_ele():
+        """
+        断言元素
+        :return:
+        """
         classification = (By.ID, 'com.yonghui.cloud.freshstore:id/bottom_tv_two')
         return classification
 

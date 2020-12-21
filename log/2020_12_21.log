@@ -119,3 +119,215 @@
 [2020-12-21 10:05:05,333] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>等待可见，等待时间：1.58秒
 [2020-12-21 10:05:05,334] - baseLog.py] - INFO: 在登录完成，获取断言文本中查找元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>
 [2020-12-21 10:05:05,355] - baseLog.py] - INFO: 获取到的元素文本值为：分类
+[2020-12-21 16:52:50,179] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 16:54:20,039] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 16:54:48,385] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 16:54:50,388] - baseLog.py] - INFO: 跳转主页测试开始
+[2020-12-21 16:54:50,389] - baseLog.py] - INFO: 在主页页面中获取元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>的文本值
+[2020-12-21 16:54:50,389] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>是否可见
+[2020-12-21 16:55:16,567] - baseLog.py] - ERROR: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>等待可见失败
+[2020-12-21 16:55:16,875] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221165516_主页页面.png
+[2020-12-21 16:55:16,875] - baseLog.py] - ERROR: 在主页页面中获取元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>的文本值失败
+[2020-12-21 16:55:17,125] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221165516_主页页面.png
+[2020-12-21 16:55:29,014] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 16:55:31,017] - baseLog.py] - INFO: 登录测试开始
+[2020-12-21 16:55:31,090] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 16:55:33,298] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 16:55:35,272] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 16:55:37,337] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 16:55:39,453] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-21 16:55:39,453] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-21 16:55:39,454] - baseLog.py] - INFO: 在用户名中输入元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>的内容为80663333
+[2020-12-21 16:55:39,454] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>是否可见
+[2020-12-21 16:55:39,480] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>等待可见，等待时间：0.03秒
+[2020-12-21 16:55:39,480] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-21 16:55:40,032] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-21 16:55:40,033] - baseLog.py] - INFO: 在密码中输入元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>的内容为Xx123456
+[2020-12-21 16:55:40,033] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>是否可见
+[2020-12-21 16:55:40,546] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>等待可见，等待时间：0.51秒
+[2020-12-21 16:55:40,547] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-21 16:55:40,567] - baseLog.py] - INFO: 在登录按钮中点击元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 16:55:40,567] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>是否可点击!
+[2020-12-21 16:55:41,074] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>等待可点击，等待时间：0.51秒
+[2020-12-21 16:55:41,074] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 16:55:41,096] - baseLog.py] - INFO: 在提示框1中点击元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 16:55:41,096] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>是否可点击!
+[2020-12-21 16:55:42,744] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>等待可点击，等待时间：1.65秒
+[2020-12-21 16:55:42,744] - baseLog.py] - INFO: 在提示框1中查找元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 16:55:42,763] - baseLog.py] - INFO: 在提示框2中点击元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 16:55:42,763] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>是否可点击!
+[2020-12-21 16:55:43,430] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>等待可点击，等待时间：0.67秒
+[2020-12-21 16:55:43,430] - baseLog.py] - INFO: 在提示框2中查找元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 16:55:43,448] - baseLog.py] - INFO: 在选择角色中点击元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 16:55:43,448] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>是否可点击!
+[2020-12-21 16:55:44,421] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>等待可点击，等待时间：0.97秒
+[2020-12-21 16:55:44,422] - baseLog.py] - INFO: 在选择角色中查找元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 16:55:44,441] - baseLog.py] - INFO: 在登录完成，获取断言文本中获取元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>的文本值
+[2020-12-21 16:55:44,442] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>是否可见
+[2020-12-21 16:55:46,034] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>等待可见，等待时间：1.59秒
+[2020-12-21 16:55:46,035] - baseLog.py] - INFO: 在登录完成，获取断言文本中查找元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>
+[2020-12-21 16:55:46,059] - baseLog.py] - INFO: 获取到的元素文本值为：分类
+[2020-12-21 17:04:49,118] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 17:04:51,122] - baseLog.py] - INFO: 跳转主页测试开始
+[2020-12-21 17:04:51,123] - baseLog.py] - INFO: 在主页页面中获取元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>的文本值
+[2020-12-21 17:04:51,123] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>是否可见
+[2020-12-21 17:05:17,266] - baseLog.py] - ERROR: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>等待可见失败
+[2020-12-21 17:05:17,505] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221170517_主页页面.png
+[2020-12-21 17:05:17,505] - baseLog.py] - ERROR: 在主页页面中获取元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>的文本值失败
+[2020-12-21 17:05:17,728] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221170517_主页页面.png
+[2020-12-21 17:05:30,999] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 17:05:33,003] - baseLog.py] - INFO: 登录测试开始
+[2020-12-21 17:05:33,057] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:05:35,285] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:05:37,279] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:05:39,351] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:05:41,528] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-21 17:05:41,529] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-21 17:05:41,529] - baseLog.py] - INFO: 在用户名中输入元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>的内容为80663333
+[2020-12-21 17:05:41,529] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>是否可见
+[2020-12-21 17:05:41,559] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>等待可见，等待时间：0.03秒
+[2020-12-21 17:05:41,559] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-21 17:05:42,102] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-21 17:05:42,102] - baseLog.py] - INFO: 在密码中输入元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>的内容为Xx123456
+[2020-12-21 17:05:42,103] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>是否可见
+[2020-12-21 17:05:42,615] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>等待可见，等待时间：0.51秒
+[2020-12-21 17:05:42,616] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-21 17:05:42,633] - baseLog.py] - INFO: 在登录按钮中点击元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:05:42,633] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>是否可点击!
+[2020-12-21 17:05:43,140] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>等待可点击，等待时间：0.51秒
+[2020-12-21 17:05:43,140] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:05:43,171] - baseLog.py] - INFO: 在提示框1中点击元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:05:43,172] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>是否可点击!
+[2020-12-21 17:05:44,820] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>等待可点击，等待时间：1.65秒
+[2020-12-21 17:05:44,820] - baseLog.py] - INFO: 在提示框1中查找元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:05:44,836] - baseLog.py] - INFO: 在提示框2中点击元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:05:44,836] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>是否可点击!
+[2020-12-21 17:05:45,514] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>等待可点击，等待时间：0.68秒
+[2020-12-21 17:05:45,515] - baseLog.py] - INFO: 在提示框2中查找元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:05:45,532] - baseLog.py] - INFO: 在选择角色中点击元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:05:45,532] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>是否可点击!
+[2020-12-21 17:05:46,508] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>等待可点击，等待时间：0.98秒
+[2020-12-21 17:05:46,509] - baseLog.py] - INFO: 在选择角色中查找元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:05:46,526] - baseLog.py] - INFO: 在登录完成，获取断言文本中获取元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two1')>的文本值
+[2020-12-21 17:05:46,527] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two1')>是否可见
+[2020-12-21 17:06:13,110] - baseLog.py] - ERROR: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two1')>等待可见失败
+[2020-12-21 17:06:13,349] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221170613_登录完成，获取断言文本.png
+[2020-12-21 17:06:13,350] - baseLog.py] - ERROR: 在登录完成，获取断言文本中获取元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two1')>的文本值失败
+[2020-12-21 17:06:13,583] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221170613_登录完成，获取断言文本.png
+[2020-12-21 17:08:25,742] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 17:08:27,745] - baseLog.py] - INFO: 跳转主页测试开始
+[2020-12-21 17:08:27,746] - baseLog.py] - INFO: 在主页页面中获取元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>的文本值
+[2020-12-21 17:08:27,747] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>是否可见
+[2020-12-21 17:08:53,814] - baseLog.py] - ERROR: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>等待可见失败
+[2020-12-21 17:08:54,046] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221170853_主页页面.png
+[2020-12-21 17:08:54,047] - baseLog.py] - ERROR: 在主页页面中获取元素<('id', 'com.yonghui.cloud.freshstore:id/title_tv')>的文本值失败
+[2020-12-21 17:08:54,286] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201221170854_主页页面.png
+[2020-12-21 17:09:07,757] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 17:09:09,762] - baseLog.py] - INFO: 登录测试开始
+[2020-12-21 17:09:09,858] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:09:12,005] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:09:14,001] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:09:16,017] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:09:18,324] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-21 17:09:18,324] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-21 17:09:18,324] - baseLog.py] - INFO: 在用户名中输入元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>的内容为80663333
+[2020-12-21 17:09:18,324] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>是否可见
+[2020-12-21 17:09:18,381] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>等待可见，等待时间：0.06秒
+[2020-12-21 17:09:18,381] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-21 17:09:18,918] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-21 17:09:18,919] - baseLog.py] - INFO: 在密码中输入元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>的内容为Xx123456
+[2020-12-21 17:09:18,919] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>是否可见
+[2020-12-21 17:09:19,430] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>等待可见，等待时间：0.51秒
+[2020-12-21 17:09:19,431] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-21 17:09:19,450] - baseLog.py] - INFO: 在登录按钮中点击元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:09:19,450] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>是否可点击!
+[2020-12-21 17:09:19,959] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>等待可点击，等待时间：0.51秒
+[2020-12-21 17:09:19,959] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:09:19,980] - baseLog.py] - INFO: 在提示框1中点击元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:09:19,980] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>是否可点击!
+[2020-12-21 17:09:21,690] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>等待可点击，等待时间：1.71秒
+[2020-12-21 17:09:21,690] - baseLog.py] - INFO: 在提示框1中查找元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:09:21,716] - baseLog.py] - INFO: 在提示框2中点击元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:09:21,716] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>是否可点击!
+[2020-12-21 17:09:22,390] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>等待可点击，等待时间：0.67秒
+[2020-12-21 17:09:22,390] - baseLog.py] - INFO: 在提示框2中查找元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:09:22,407] - baseLog.py] - INFO: 在选择角色中点击元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:09:22,408] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>是否可点击!
+[2020-12-21 17:09:23,338] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>等待可点击，等待时间：0.93秒
+[2020-12-21 17:09:23,338] - baseLog.py] - INFO: 在选择角色中查找元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:09:23,358] - baseLog.py] - INFO: 在登录完成，获取断言文本中获取元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>的文本值
+[2020-12-21 17:09:23,359] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>是否可见
+[2020-12-21 17:09:25,148] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>等待可见，等待时间：1.79秒
+[2020-12-21 17:09:25,148] - baseLog.py] - INFO: 在登录完成，获取断言文本中查找元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>
+[2020-12-21 17:09:25,171] - baseLog.py] - INFO: 获取到的元素文本值为：分类
+[2020-12-21 17:26:18,783] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 17:26:20,788] - baseLog.py] - INFO: 登录测试开始
+[2020-12-21 17:26:20,857] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:26:22,981] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:26:24,963] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:26:26,991] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:26:29,350] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-21 17:26:29,351] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-21 17:26:29,351] - baseLog.py] - INFO: 在用户名中输入元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>的内容为80663333
+[2020-12-21 17:26:29,352] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>是否可见
+[2020-12-21 17:26:29,388] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>等待可见，等待时间：0.04秒
+[2020-12-21 17:26:29,388] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-21 17:26:29,919] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-21 17:26:29,919] - baseLog.py] - INFO: 在密码中输入元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>的内容为Xx123456
+[2020-12-21 17:26:29,920] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>是否可见
+[2020-12-21 17:26:30,443] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>等待可见，等待时间：0.52秒
+[2020-12-21 17:26:30,445] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-21 17:26:30,476] - baseLog.py] - INFO: 在登录按钮中点击元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:26:30,477] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>是否可点击!
+[2020-12-21 17:26:30,993] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>等待可点击，等待时间：0.52秒
+[2020-12-21 17:26:30,993] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:26:31,024] - baseLog.py] - INFO: 在提示框1中点击元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:26:31,025] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>是否可点击!
+[2020-12-21 17:26:33,123] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>等待可点击，等待时间：2.1秒
+[2020-12-21 17:26:33,124] - baseLog.py] - INFO: 在提示框1中查找元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:26:33,142] - baseLog.py] - INFO: 在提示框2中点击元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:26:33,143] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>是否可点击!
+[2020-12-21 17:26:33,802] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>等待可点击，等待时间：0.66秒
+[2020-12-21 17:26:33,803] - baseLog.py] - INFO: 在提示框2中查找元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:26:33,822] - baseLog.py] - INFO: 在选择角色中点击元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:26:33,823] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>是否可点击!
+[2020-12-21 17:26:34,806] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>等待可点击，等待时间：0.98秒
+[2020-12-21 17:26:34,807] - baseLog.py] - INFO: 在选择角色中查找元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:32:33,665] - baseLog.py] - INFO: APP启动成功...
+[2020-12-21 17:32:35,669] - baseLog.py] - INFO: 登录测试开始
+[2020-12-21 17:32:35,758] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:32:37,754] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:32:39,761] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:32:41,928] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-21 17:32:44,061] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-21 17:32:44,061] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-21 17:32:44,061] - baseLog.py] - INFO: 在用户名中输入元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>的内容为80663333
+[2020-12-21 17:32:44,062] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>是否可见
+[2020-12-21 17:32:44,105] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>等待可见，等待时间：0.04秒
+[2020-12-21 17:32:44,105] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-21 17:32:44,651] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-21 17:32:44,652] - baseLog.py] - INFO: 在密码中输入元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>的内容为Xx123456
+[2020-12-21 17:32:44,653] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>是否可见
+[2020-12-21 17:32:45,171] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>等待可见，等待时间：0.52秒
+[2020-12-21 17:32:45,172] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-21 17:32:45,191] - baseLog.py] - INFO: 在登录按钮中点击元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:32:45,192] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>是否可点击!
+[2020-12-21 17:32:45,700] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>等待可点击，等待时间：0.51秒
+[2020-12-21 17:32:45,701] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-21 17:32:45,719] - baseLog.py] - INFO: 在提示框1中点击元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:32:45,720] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>是否可点击!
+[2020-12-21 17:32:47,606] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>等待可点击，等待时间：1.89秒
+[2020-12-21 17:32:47,607] - baseLog.py] - INFO: 在提示框1中查找元素<('id', 'com.yonghui.cloud.freshstore:id/cancle_btn')>
+[2020-12-21 17:32:47,624] - baseLog.py] - INFO: 在提示框2中点击元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:32:47,624] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>是否可点击!
+[2020-12-21 17:32:48,285] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>等待可点击，等待时间：0.66秒
+[2020-12-21 17:32:48,286] - baseLog.py] - INFO: 在提示框2中查找元素<('id', 'com.yonghui.cloud.freshstore:id/ok_btn')>
+[2020-12-21 17:32:48,308] - baseLog.py] - INFO: 在选择角色中点击元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:32:48,309] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>是否可点击!
+[2020-12-21 17:32:49,302] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>等待可点击，等待时间：0.99秒
+[2020-12-21 17:32:49,303] - baseLog.py] - INFO: 在选择角色中查找元素<('id', 'com.yonghui.cloud.freshstore:id/permission_firm_txt')>
+[2020-12-21 17:32:49,320] - baseLog.py] - INFO: 在登录完成，获取断言文本中获取元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>的文本值
+[2020-12-21 17:32:49,321] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>是否可见
+[2020-12-21 17:32:50,731] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>等待可见，等待时间：1.41秒
+[2020-12-21 17:32:50,731] - baseLog.py] - INFO: 在登录完成，获取断言文本中查找元素<('id', 'com.yonghui.cloud.freshstore:id/bottom_tv_two')>
+[2020-12-21 17:32:50,753] - baseLog.py] - INFO: 获取到的元素文本值为：分类

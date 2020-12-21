@@ -3,7 +3,7 @@ import time
 
 import yaml
 from appium import webdriver
-from common.baseLog import Log
+from common.baseLog import Log as log
 
 
 # 项目根目录路径，即android-ui-autotest文件夹的路径
@@ -16,7 +16,7 @@ DESIRED_CAPS_YAML_PATH = BASE_PATH + '\\config\\desired_caps'
 def android_driver():
     # desired_caps = {}
     # 从desired_caps.yaml读取driver配置数据
-    with open('../config/desired_caps', 'r') as f:
+    with open(DESIRED_CAPS_YAML_PATH, 'r') as f:
         f = f.read()
         desired_caps = yaml.load(f)
     # stream = open("../config/desired_caps", "r")
@@ -36,12 +36,12 @@ def android_driver():
     # 启动app
     try:
         driver = webdriver.Remote('http://' + str(desired_caps['ip']) + ':' + str(desired_caps['port']) + '/wd/hub', desired_caps)
-        Log().info("APP启动成功...")
+        log().info("APP启动成功...")
         driver.implicitly_wait(8)
         time.sleep(2)
         return driver
     except Exception as e:
-        Log().error("APP启动失败，原因是：{}".format(e))
+        log().error("APP启动失败，原因是：{}".format(e))
 
 
 if __name__ == '__main__':

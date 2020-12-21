@@ -4,7 +4,7 @@ deviceName: 127.0.0.1:62001
 appActivity: com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct
 appPackage: com.yonghui.cloud.freshstore
 automationName: UiAutomator2
-noReset: false
+noReset: true
 resetKeyboard: true
 noReset: false
 unicodeKeyboard: true
