@@ -8,29 +8,28 @@ import HTMLTestRunner
 cur_path = os.path.dirname(os.path.abspath(__file__))
 
 
-def add_case(rule, product, module):
+def add_case(rule='test*'):
     """
     第一步：加载所有的测试用例
     :param rule:测试用例文件命令规则
-    :param product:被测系统
-    :param module:被测模块
     :return:
     """
     f_path = os.path.dirname(os.path.abspath(__file__))
 
     # 动态获取被测项目
-    for root, dirs, files in os.walk(f_path):
-        if product in root and root.endswith(module):
-            case_path = root  # 需要执行用例文件夹
+    # for root, dirs, files in os.walk(f_path):
+    #     if product in root and root.endswith(module):
+    #         case_path = root  # 需要执行用例文件夹
 
-            discover = unittest.defaultTestLoader.discover(case_path, pattern=rule, top_level_dir=None)
-            return discover
+    case_path = os.path.join(f_path, 'testcase')
+    discover = unittest.defaultTestLoader.discover(case_path, pattern=rule, top_level_dir=None)
+    return discover
 
 
-def run_case(all_case, reportName="report"):
+def run_case(allCase, reportName='report'):
     """
     第二步：执行所有的用例，并把结果写入HTML测试报告
-    :param all_case:
+    :param allCase:
     :param reportName:
     :return:
     """
@@ -51,10 +50,10 @@ def run_case(all_case, reportName="report"):
     fp.close()
 
 
-def get_report_file(report_path):
+def get_report_file(reportPath):
     """
     第三步：获取最新的测试报告
-    :param report_path:
+    :param reportPath: 测试报告路径
     :return:
     """
     lists = os.listdir(report_path)
@@ -66,7 +65,7 @@ def get_report_file(report_path):
 
 
 if __name__ == "__main__":
-    all_case = add_case('test*', 'testcase', 'testcase')   # 1 加载用例
+    all_case = add_case()   # 1 加载用例
     # 生成测试报告路径
     run_case(all_case)      # 2 执行用例
     report_path = os.path.join(cur_path, "report")   # 用例文件

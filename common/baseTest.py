@@ -17,7 +17,7 @@ class StartEnd(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.driver = android_driver()
 
-    def login_page(self):
-        lp = LoginPage(self.driver)
-        lp.login_action('80663333', 'Xx123456')
-        return lp
+    # def login_page(self):
+    #     lp = LoginPage(self.driver)
+    #     lp.login_action('80663333', 'Xx123456')
+    #     return lp

@@ -12,6 +12,7 @@ class LoginPage(BasePage):
     tipsClk1 = (By.ID, 'com.yonghui.cloud.freshstore:id/cancle_btn')
     tipsClk2 = (By.ID, 'com.yonghui.cloud.freshstore:id/ok_btn')
     roleClk = (By.ID, 'com.yonghui.cloud.freshstore:id/permission_firm_txt')
+    classIfication = (By.ID, 'com.yonghui.cloud.freshstore:id/bottom_tv_two')
 
     def login_action(self, username, password):
         while 1:
@@ -30,13 +31,13 @@ class LoginPage(BasePage):
                 self.click_button(self.roleClk, '选择角色')
                 break
 
-    @staticmethod
-    def get_classification_ele():
+    # @staticmethod
+    def get_assertion_ele(self):
         """
         断言元素
         :return:
         """
-        classification = (By.ID, 'com.yonghui.cloud.freshstore:id/bottom_tv_two')
-        return classification
+        assertionEle = (By.ID, self.classIfication[1])
+        return assertionEle
 
 
