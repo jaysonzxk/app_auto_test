@@ -1,0 +1,90 @@
+[2020-12-16 18:56:07,763] - baseLog.py] - ERROR: APP启动失败，原因是：Message: An unknown server-side error occurred while processing the command. Original error: You must include a platformName capability
+
+[2020-12-16 18:56:07,764] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 18:58:46,334] - baseLog.py] - INFO: {'platformName': ('Android',), 'platformVersion': ('5.1.1',), 'deviceName': ('127.0.0.1:62001',), 'appPackage': ('com.yonghui.cloud.freshstore',), 'appActivity': ('com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct',), 'unicodeKeyboard': (True,), 'resetKeyboard': (True,), 'noReset': (True,), 'automationName': 'UiAutomator2'}
+[2020-12-16 18:58:46,360] - baseLog.py] - ERROR: APP启动失败，原因是：Message: An unknown server-side error occurred while processing the command. Original error: You must include a platformName capability
+
+[2020-12-16 18:58:46,361] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:02:58,595] - baseLog.py] - INFO: {'platformName': ('Android',), 'platformVersion': ('5.1.1',), 'deviceName': ('127.0.0.1:62001',), 'appPackage': ('com.yonghui.cloud.freshstore',), 'appActivity': ('com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct',), 'unicodeKeyboard': (True,), 'resetKeyboard': (True,), 'noReset': (True,), 'automationName': 'UiAutomator2'}
+[2020-12-16 19:02:58,621] - baseLog.py] - ERROR: APP启动失败，原因是：Message: An unknown server-side error occurred while processing the command. Original error: You must include a platformName capability
+
+[2020-12-16 19:02:58,621] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:08:08,345] - baseLog.py] - INFO: {'platformName': 'Android', 'platformVersion': '5.1.1', 'deviceName': '127.0.0.1:62001', 'appActivity': 'com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct', 'appPackage': 'com.yonghui.cloud.freshstore', 'automationName': 'UiAutomator2', 'resetKeyboard': True, 'noReset': True, 'unicodeKeyboard': True, 'ip': '127.0.0.1', 'port': 4723}
+[2020-12-16 19:08:19,651] - baseLog.py] - INFO: APP启动成功...
+[2020-12-16 19:08:19,654] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:08:19,665] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-16 19:08:20,572] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-16 19:08:20,572] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-16 19:08:20,573] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-16 19:08:21,802] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-16 19:08:21,803] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-16 19:08:22,318] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-16 19:08:39,475] - baseLog.py] - ERROR: 获取toast文本失败！
+[2020-12-16 19:08:40,267] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201216190839_登录完成.png
+[2020-12-16 19:20:54,406] - baseLog.py] - INFO: {'platformName': 'Android', 'platformVersion': '5.1.1', 'deviceName': '127.0.0.1:62001', 'appActivity': 'com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct', 'appPackage': 'com.yonghui.cloud.freshstore', 'automationName': 'UiAutomator2', 'resetKeyboard': True, 'noReset': True, 'unicodeKeyboard': True, 'ip': '127.0.0.1', 'port': 4723}
+[2020-12-16 19:21:05,794] - baseLog.py] - INFO: APP启动成功...
+[2020-12-16 19:21:05,798] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:21:05,807] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-16 19:21:08,705] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-16 19:21:08,705] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-16 19:21:08,706] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-16 19:21:09,265] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-16 19:21:09,266] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-16 19:21:09,784] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-16 19:24:39,627] - baseLog.py] - INFO: {'platformName': 'Android', 'platformVersion': '5.1.1', 'deviceName': '127.0.0.1:62001', 'appActivity': 'com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct', 'appPackage': 'com.yonghui.cloud.freshstore', 'automationName': 'UiAutomator2', 'resetKeyboard': True, 'noReset': True, 'unicodeKeyboard': True, 'ip': '127.0.0.1', 'port': 4723}
+[2020-12-16 19:24:51,431] - baseLog.py] - INFO: APP启动成功...
+[2020-12-16 19:24:51,434] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:24:51,444] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-16 19:24:54,309] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-16 19:24:54,310] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-16 19:24:54,311] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-16 19:24:54,900] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-16 19:24:54,900] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-16 19:24:55,424] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-16 19:25:24,069] - baseLog.py] - INFO: {'platformName': 'Android', 'platformVersion': '5.1.1', 'deviceName': '127.0.0.1:62001', 'appActivity': 'com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct', 'appPackage': 'com.yonghui.cloud.freshstore', 'automationName': 'UiAutomator2', 'resetKeyboard': True, 'noReset': True, 'unicodeKeyboard': True, 'ip': '127.0.0.1', 'port': 4723}
+[2020-12-16 19:25:35,526] - baseLog.py] - INFO: APP启动成功...
+[2020-12-16 19:25:35,530] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:25:35,536] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-16 19:25:38,408] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-16 19:25:38,410] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-16 19:25:38,412] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-16 19:25:39,033] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-16 19:25:39,033] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-16 19:25:39,552] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-16 19:25:40,068] - baseLog.py] - INFO: 在登录完成中获取元素<选择角色>的所有文本值
+[2020-12-16 19:25:40,068] - baseLog.py] - INFO: 开始等待页面元素<选择角色>是否可见
+[2020-12-16 19:25:40,069] - baseLog.py] - ERROR: 页面元素<选择角色>等待可见失败
+[2020-12-16 19:25:40,323] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201216192540_登录完成.png
+[2020-12-16 19:25:40,323] - baseLog.py] - ERROR: 在登录完成中获取元素<选择角色>的所有文本值失败！
+[2020-12-16 19:25:40,556] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201216192540_登录完成.png
+[2020-12-16 19:30:18,473] - baseLog.py] - INFO: {'platformName': 'Android', 'platformVersion': '5.1.1', 'deviceName': '127.0.0.1:62001', 'appActivity': 'com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct', 'appPackage': 'com.yonghui.cloud.freshstore', 'automationName': 'UiAutomator2', 'resetKeyboard': True, 'noReset': True, 'unicodeKeyboard': True, 'ip': '127.0.0.1', 'port': 4723}
+[2020-12-16 19:30:28,922] - baseLog.py] - INFO: APP启动成功...
+[2020-12-16 19:30:28,925] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:30:28,934] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-16 19:30:31,803] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-16 19:30:31,803] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-16 19:30:31,804] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-16 19:30:32,417] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-16 19:30:32,418] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-16 19:30:32,941] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-16 19:30:33,447] - baseLog.py] - INFO: 在登录完成中获取元素<选择角色>的文本值
+[2020-12-16 19:30:33,448] - baseLog.py] - INFO: 开始等待页面元素<选择角色>是否可见
+[2020-12-16 19:30:33,448] - baseLog.py] - ERROR: 页面元素<选择角色>等待可见失败
+[2020-12-16 19:30:33,715] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201216193033_登录完成.png
+[2020-12-16 19:30:33,715] - baseLog.py] - ERROR: 在登录完成中获取元素<选择角色>的文本值失败
+[2020-12-16 19:30:33,969] - baseLog.py] - INFO: 页面截图文件保存在：D:\work\app\screenshot\20201216193033_登录完成.png
+[2020-12-16 19:45:34,573] - baseLog.py] - INFO: {'platformName': 'Android', 'platformVersion': '5.1.1', 'deviceName': '127.0.0.1:62001', 'appActivity': 'com.yonghui.cloud.freshstore.android.activity.welcome.WelcomeAct', 'appPackage': 'com.yonghui.cloud.freshstore', 'automationName': 'UiAutomator2', 'resetKeyboard': True, 'noReset': True, 'unicodeKeyboard': True, 'ip': '127.0.0.1', 'port': 4723}
+[2020-12-16 19:45:46,558] - baseLog.py] - INFO: APP启动成功...
+[2020-12-16 19:45:46,562] - baseLog.py] - INFO: 登录测试开始
+[2020-12-16 19:45:46,570] - baseLog.py] - INFO: 开始向left方向滑动
+[2020-12-16 19:45:49,471] - baseLog.py] - INFO: 登录开始。。。
+[2020-12-16 19:45:49,473] - baseLog.py] - INFO: 输入用户名：80663333
+[2020-12-16 19:45:49,475] - baseLog.py] - INFO: 在用户名中查找元素<('id', 'com.yonghui.cloud.freshstore:id/username_et')>
+[2020-12-16 19:45:50,088] - baseLog.py] - INFO: 输入密码：Xx123456
+[2020-12-16 19:45:50,088] - baseLog.py] - INFO: 在密码中查找元素<('id', 'com.yonghui.cloud.freshstore:id/password_et')>
+[2020-12-16 19:45:50,599] - baseLog.py] - INFO: 在登录按钮中查找元素<('id', 'com.yonghui.cloud.freshstore:id/loginBtView')>
+[2020-12-16 19:45:51,106] - baseLog.py] - INFO: 在登录完成中获取元素<('id', 'com.yonghui.cloud.freshstore:id/baseTopTitleBtView')>的文本值
+[2020-12-16 19:45:51,106] - baseLog.py] - INFO: 开始等待页面元素<('id', 'com.yonghui.cloud.freshstore:id/baseTopTitleBtView')>是否可见
+[2020-12-16 19:45:52,974] - baseLog.py] - INFO: 页面元素<('id', 'com.yonghui.cloud.freshstore:id/baseTopTitleBtView')>等待可见，等待时间：1.87秒
+[2020-12-16 19:45:52,975] - baseLog.py] - INFO: 在登录完成中查找元素<('id', 'com.yonghui.cloud.freshstore:id/baseTopTitleBtView')>
+[2020-12-16 19:45:52,992] - baseLog.py] - INFO: 获取到的元素文本值为：选择角色
