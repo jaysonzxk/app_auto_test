@@ -7,7 +7,10 @@ from appium.webdriver.common.mobileby import MobileBy as By
 
 
 class HomeTest(StartEnd):
-
+    """
+    测试跳转应用主页
+    断言：头部标题
+    """
     def test_home(self):
 
         Log().info('跳转主页测试开始')
