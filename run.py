@@ -34,16 +34,18 @@ def run_case(allCase, reportName='report'):
     :return:
     """
     now = time.strftime("%Y_%m_%d_%H_%M_%S")
-    report_path = os.path.join(cur_path, reportName)  # 报告文件夹
+    reportPath = os.path.join(cur_path, reportName)  # 报告文件夹
     # 如果不存在就创建
-    if not os.path.exists(report_path):
-        os.mkdir(report_path)
-
-    report_abspath = os.path.join(report_path, now+"result.html")
+    if not os.path.exists(reportPath):
+        os.mkdir(reportPath)
+    f_path = os.path.dirname(os.path.abspath(__file__))
+    if 'app' in str(f_path) or 'web' in str(f_path):
+        title = '{}测试报告'.format(f_path[8:11])
+    else:
+        title = 'api测试报告'
+    report_abspath = os.path.join(reportPath, now+"result.html")
     fp = open(report_abspath, "wb")
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                           title="API测试报告",
-                                           description="用例执行情况")
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=title, description="用例执行情况")
 
     # 调用add_case返回值
     runner.run(all_case)  # discover
