@@ -1,3 +1,4 @@
+import os
 import time
 from datetime import datetime
 from appium.webdriver.common.touch_action import TouchAction
@@ -48,7 +49,7 @@ class BasePage:
             WebDriverWait(self.driver, timeout, frequency).until(EC.element_to_be_clickable(locator))
         except Exception as e:
             log().error('页面元素<{}>等待可点击失败!'.format(locator))
-            self.save_screenshot(img_doc)
+            # self.save_screenshot(img_doc)
             raise e
         else:
             end_time = time.time()
@@ -69,7 +70,7 @@ class BasePage:
             WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(locator))
         except Exception as e:
             log().error('页面元素<{}>等待存在失败!'.format(locator))
-            self.save_screenshot(img_doc)
+            # self.save_screenshot(img_doc)
             raise e
         else:
             end_time = time.time()
@@ -81,12 +82,13 @@ class BasePage:
         :param img_doc: 截图说明
         :return:
         """
-        file_name = 'D:\\work\\app\\screenshot' + "\\{}_{}.png".format(datetime.strftime(datetime.now(), "%Y%m%d%H%M%S"), img_doc)
+        f_path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+        file_name = f_path + '\\screenshot\\{}_{}.png'.format(datetime.strftime(datetime.now(), '%Y%m%d%H%M%S'), img_doc)
         self.driver.save_screenshot(file_name)
-        with open(file_name, mode='rb') as f:
-            file = f.read()
+        # with open(file_name, mode='rb') as f:
+        #     file = f.read()
         # allure.attach(file, img_doc, allure.attachment_type.PNG)
-        log().info("页面截图文件保存在：{}".format(file_name))
+        log().info('页面截图文件保存在：{}'.format(file_name))
 
     def get_element(self, locator, img_doc):
         """
