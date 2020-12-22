@@ -23,7 +23,9 @@ class BasePage:
         :return:
         """
         try:
+            log().info('---' * 20)
             log().info('开始等待页面元素<{}>是否可见'.format(locator))
+            log().info('---' * 20)
             start_time = time.time()
             WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(locator))
         except Exception as e:
@@ -44,7 +46,9 @@ class BasePage:
         :return:
         """
         try:
+            log().info('---' * 20)
             log().info('开始等待页面元素<{}>是否可点击!'.format(locator))
+            log().info('---' * 20)
             start_time = time.time()
             WebDriverWait(self.driver, timeout, frequency).until(EC.element_to_be_clickable(locator))
         except Exception as e:
@@ -65,7 +69,9 @@ class BasePage:
         :return:
         """
         try:
+            log().info('---' * 20)
             log().info('开始等待页面元素<{}>是否存在!'.format(locator))
+            log().info('---' * 20)
             start_time = time.time()
             WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(locator))
         except Exception as e:
@@ -97,7 +103,9 @@ class BasePage:
         :param img_doc:截图说明
         :return:WebElement对象
         """
+        log().info('---' * 20)
         log().info('在{}中查找元素<{}>'.format(img_doc, locator))
+        log().info('---' * 20)
         try:
             ele = self.driver.find_element(*locator)
         except Exception as e:
@@ -135,7 +143,9 @@ class BasePage:
         :return:
         """
         try:
+            log().info('---' * 20)
             log().info('在{}中输入元素<{}>的内容为{}'.format(img_doc, locator, text))
+            log().info('---' * 20)
             self.wait_element_to_be_visible(locator, img_doc, timeout, frequency)
             self.get_element(locator, img_doc).send_keys(text)
         except Exception as e:
@@ -153,7 +163,9 @@ class BasePage:
         :return:
         """
         try:
+            log().info('---' * 20)
             log().info('在{}中清除元素<{}>的文本内容'.format(img_doc, locator))
+            log().info('---' * 20)
             self.wait_element_to_be_click(locator, img_doc, timeout, frequency)
             self.get_element(locator, img_doc).clear()
         except Exception as e:
@@ -171,7 +183,9 @@ class BasePage:
         :return:
         """
         try:
+            log().info('---' * 20)
             log().info('在{}中点击元素<{}>'.format(img_doc, locator))
+            log().info('---' * 20)
             self.wait_element_to_be_click(locator, img_doc, timeout, frequency)
             self.get_element(locator, img_doc).click()
             # time.sleep(2)
@@ -190,7 +204,9 @@ class BasePage:
         :return:
         """
         try:
+            log().info('---'*20)
             log().info('在{}中获取元素<{}>的文本值'.format(img_doc, locator))
+            log().info('---' * 20)
             self.wait_element_to_be_visible(locator, img_doc, timeout, frequency)
             text = self.get_element(locator, img_doc).text
         except Exception as e:

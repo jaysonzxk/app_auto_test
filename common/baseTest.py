@@ -33,7 +33,6 @@ class StartEnd(unittest.TestCase, LoginPage):
                 self.sliding_screen('left', '启动页滑屏操作')
                 continue
             else:
-                Log().info('登录开始。。。')
                 Log().info("输入用户名：{}".format(username))
                 self.input_text(username, self.username_inputBox, '用户名')
                 Log().info("输入密码：{}".format(password))
@@ -43,3 +42,7 @@ class StartEnd(unittest.TestCase, LoginPage):
                 self.click_button(self.tipsClk2, '提示框2')
                 self.click_button(self.roleClk, '选择角色')
                 break
+
+
+if __name__ == '__main__':
+    StartEnd().login_action()
