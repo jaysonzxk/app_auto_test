@@ -14,11 +14,10 @@ class HomeTest(StartEnd):
     def test_home(self):
 
         Log().info('跳转主页测试开始')
-        lp = LoginPage(self.driver)
+        self.login_action()
         hp = HomePage(self.driver)
-        lp.login_action('80663333', 'Xx123456')
         hp.home_page()
-        result = hp.get_element_text(hp.get_assertion_ele(), '跳转到应用主页，断言文本')
+        result = self.base_driver.get_element_text(hp.get_assertion_ele(), '跳转到应用主页，断言文本')
         self.assertEqual(result, '我的申请')
 
 
