@@ -273,13 +273,22 @@ class BasePage:
         size = self.driver.get_window_size()
         try:
             log().info("开始向{}方向滑动".format(direction))
-            if direction.lower() == 'up':
+            if direction.lower() == 'up_big':
                 time.sleep(1)
                 self.driver.swipe(start_x=size['width'] * 0.5,
                                   start_y=size['height'] * 0.9,
                                   end_x=size['width'] * 0.5,
                                   end_y=size['height'] * 0.1,
                                   duration=200)
+            elif direction.lower() == 'up_small':
+                time.sleep(1)
+                self.driver.swipe(
+                    start_x=size['width'] * 0.5,
+                    start_y=size['height'] * 0.5,
+                    end_x=size['width'] * 0.5,
+                    end_y=size['height'] * 0.4,
+                    duration=200
+                )
             elif direction.lower() == 'down':
                 time.sleep(1)
                 self.driver.swipe(start_x=size['width'] * 0.5,
