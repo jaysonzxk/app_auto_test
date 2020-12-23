@@ -6,7 +6,7 @@ appPackage: com.yonghui.cloud.freshstore
 automationName: UiAutomator2
 noReset: true
 resetKeyboard: true
-noReset: false
+noReset: true
 unicodeKeyboard: true
 ip: 127.0.0.1
 port: 4723

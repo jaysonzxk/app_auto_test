@@ -29,9 +29,17 @@ class StartEnd(unittest.TestCase, LoginPage):
 
     def login_action(self, username='80663333', password='Xx123456'):
         while 1:
-            if self.is_element_exist(self.loginBtn[1]) == False:
+            if self.is_element_exist(self.loginBtn[1]) == 'False':
                 self.sliding_screen('left', '启动页滑屏操作')
                 continue
+            elif self.is_element_exist(self.tipsClk1[1]) == 'False':
+                Log().info("输入用户名：{}".format(username))
+                self.input_text(username, self.username_inputBox, '用户名')
+                Log().info("输入密码：{}".format(password))
+                self.input_text(password, self.password_inputBox, '密码')
+                self.click_button(self.loginBtn, '登录按钮')
+                self.click_button(self.roleClk, '选择角色')
+                break
             else:
                 Log().info("输入用户名：{}".format(username))
                 self.input_text(username, self.username_inputBox, '用户名')

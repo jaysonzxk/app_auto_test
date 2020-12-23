@@ -147,6 +147,7 @@ class BasePage:
             log().info('在{}中输入元素<{}>的内容为{}'.format(img_doc, locator, text))
             log().info('---' * 20)
             self.wait_element_to_be_visible(locator, img_doc, timeout, frequency)
+            self.clear_text(locator, img_doc)
             self.get_element(locator, img_doc).send_keys(text)
         except Exception as e:
             log().error('在元素<{}>中输入内容{}失败'.format(locator, text))
@@ -419,6 +420,6 @@ class BasePage:
         """
         source = self.driver.page_source
         if element in source:
-            return True
+            return 'True'
         else:
-            return False
+            return 'False'
