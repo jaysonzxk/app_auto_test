@@ -16,12 +16,11 @@ class StartEnd(unittest.TestCase, LoginPage):
     roleClk = (By.ID, 'com.yonghui.cloud.freshstore:id/permission_firm_txt')
 
     def setUp(self) -> None:
-        print('----------测试开始---------')
         self.base_driver = LoginPage(self.driver)
         self.log = Log()
 
     def tearDown(self) -> None:
-        print('----------测试结束----------')
+        pass
 
     @classmethod
     def setUpClass(cls) -> None:

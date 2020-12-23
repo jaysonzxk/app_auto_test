@@ -16,7 +16,7 @@ class PurchaseTest(StartEnd):
         result = self.base_driver.get_element_text(pp.get_assertion_ele()[0], '制单完成，获取断言文本')
         if result != '待付款':
             self.save_screenshot('制单断言失败')
-        self.assertEqual(result, '待付款', msg='主页断言失败，实际值{}与期望值{}不符'.format(result, '待付款'))
+        self.assertEqual(result, '待付款', msg='制单页面断言失败，实际值{}与期望值{}不符'.format(result, '待付款'))
         Log().info('----------制单测试通过----------')
         Log().info('----------测试完成----------')
 
