@@ -29,9 +29,11 @@ class StartEnd(unittest.TestCase, LoginPage):
 
     def login_action(self, username='80663333', password='Xx123456'):
         while 1:
+            # 判断是否在启动页和需要滑动多少次
             if self.is_element_exist(self.loginBtn[1]) == 'False':
                 self.sliding_screen('left', '启动页滑屏操作')
                 continue
+            # 当noReset=true时，不会弹出两个提示框
             elif self.is_element_exist(self.tipsClk1[1]) == 'False':
                 Log().info("输入用户名：{}".format(username))
                 self.input_text(username, self.username_inputBox, '用户名')
@@ -40,6 +42,7 @@ class StartEnd(unittest.TestCase, LoginPage):
                 self.click_button(self.loginBtn, '登录按钮')
                 self.click_button(self.roleClk, '选择角色')
                 break
+            # 当noReset=false时，会弹出两个提示框
             else:
                 Log().info("输入用户名：{}".format(username))
                 self.input_text(username, self.username_inputBox, '用户名')
