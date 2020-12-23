@@ -14,7 +14,7 @@ class PurchasePage(BasePage):
     purchaseInputBox = (By.ID, 'com.yonghui.cloud.freshstore:id/et_search')  # 采购组织输入搜索框
     purchaseName = (By.ID, 'com.yonghui.cloud.freshstore:id/tv_content')  # 采购组织名称
     # 采购信息-需求地点页面元素
-    requireAreaChooseBtn = (By.ID, 'com.yonghui.cloud.freshstore:id/require_area')  # 选择需求地点按钮
+    requireAreaChooseBtn = (By.ID, 'com.yonghui.cloud.freshstore:id/tv_area_choose')  # 选择需求地点按钮
     areaInputBox = (By.ID, 'com.yonghui.cloud.freshstore:id/et_search')  # 需求地点输入搜索框
     areaName = (By.ID, 'com.yonghui.cloud.freshstore:id/tv_content')  # 地点名称
     # 采购信息-供应商页面元素
@@ -40,10 +40,10 @@ class PurchasePage(BasePage):
     # 查看详情
     detailsBtn = (By.ID, 'com.yonghui.cloud.freshstore:id/tv_cancel')  # 查看制单详情
     # 制单申请完成--文本断言
-    assertionText1 = (By.ID, 'com.yonghui.cloud.freshstore:id/tv_title')  # text: 申请完成
-    assertionText2 = (By.ID, 'com.yonghui.cloud.freshstore:id/status_type_tv')  # text: 待付款
-    assertionText3 = (By.ID, 'com.yonghui.cloud.freshstore:id/cancel_order_tv')  # text: 作废
-    assertionText4 = (By.ID, 'com.yonghui.cloud.freshstore:id/sure_pay_order_tv')  # text: 确认付款
+    # assertionText1 = (By.ID, 'com.yonghui.cloud.freshstore:id/tv_title')  # text: 申请完成
+    assertionText1 = (By.ID, 'com.yonghui.cloud.freshstore:id/status_type_tv')  # text: 待付款
+    assertionText2 = (By.ID, 'com.yonghui.cloud.freshstore:id/cancel_order_tv')  # text: 作废
+    assertionText3 = (By.ID, 'com.yonghui.cloud.freshstore:id/sure_pay_order_tv')  # text: 确认付款
 
     # =====付款=====
     payConfirmBtn = (By.ID, 'com.yonghui.cloud.freshstore:id/tv_confirm')
@@ -111,7 +111,6 @@ class PurchasePage(BasePage):
         assertionEle1 = (By.ID, self.assertionText1[1])
         assertionEle2 = (By.ID, self.assertionText2[1])
         assertionEle3 = (By.ID, self.assertionText3[1])
-        assertionEle4 = (By.ID, self.assertionText4[1])
-        return assertionEle1, assertionEle2, assertionEle3, assertionEle4
+        return assertionEle1, assertionEle2, assertionEle3
 
 
