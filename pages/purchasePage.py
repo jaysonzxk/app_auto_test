@@ -80,6 +80,7 @@ class PurchasePage(BasePage):
         self.input_text(supplier_code, self.supplierInputBox, '供应商')
         self.click_button(self.supplierName, '点击选择查询出来的供应商')
         # 采购信息-付款类型
+        self.sliding_screen('up_big', '向上滑动')
         self.click_button(self.payTypeChooseBtn, '付款类型选择按钮')
         # 采购信息-确认按钮
         self.click_button(self.payTypeSubmitBtn, '付款类型确认按钮')

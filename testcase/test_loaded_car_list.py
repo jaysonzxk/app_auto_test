@@ -8,6 +8,7 @@ class LoadedListTest(StartEnd):
     """
     已装车列表页面
     """
+    @unittest.skip('跳过')
     def test_loaded_list(self):
         """
         已装车列表页面
@@ -16,7 +17,7 @@ class LoadedListTest(StartEnd):
         Log().info('----------已装车列表页面测试开始----------')
         self.login_action()  # 重新调用一下登录页面
         loaded_list_page = ApplyListPage(self.driver)
-        loaded_list_page.loaded_car_list()
+        loaded_list_page.loaded_car_list(3)
         result = self.base_driver.get_element_text(loaded_list_page.get_assertion_ele(), '已装车列表页面，获取断言文本')
         expect = ['已出单', '已装车']
         if result not in expect:

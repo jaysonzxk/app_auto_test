@@ -8,6 +8,7 @@ class WarehousedListTest(StartEnd):
     """
     已入库列表页面
     """
+    @unittest.skip('跳过')
     def test_Warehoused_list(self):
         """
         已入库列表页面
@@ -16,7 +17,7 @@ class WarehousedListTest(StartEnd):
         Log().info('----------已入库列表页面测试开始----------')
         self.login_action()  # 重新调用一下登录页面
         warehoused_list_page = ApplyListPage(self.driver)
-        warehoused_list_page.warehoused_list()
+        warehoused_list_page.warehoused_list(4)
         result = self.base_driver.get_element_text(warehoused_list_page.get_assertion_ele(), '已入库列表页面，获取断言文本')
         expect = ['已入库']
         if result not in expect:

@@ -45,8 +45,8 @@ class PaymentPage(BasePage):
         付款失败再次支付场景
         :return:
         """
-        # 返回列表页
-        self.click_button(self.returnBtn, '支付完成返回列表')
+        # 农户采购入口
+        self.click_button(self.purchaseApp, '农户采购入口')
         # 向左滑动到待付款页面
         self.sliding_screen('left', '申请列表-全部列表页向左滑动到待付款列表页')
         while 1:

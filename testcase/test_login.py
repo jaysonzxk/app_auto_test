@@ -5,6 +5,7 @@ from pages.loginPage import LoginPage
 
 class LoginTest(StartEnd):
 
+    @unittest.skip('跳过')
     def test_login(self):
         self.log.info('登录测试开始')
         self.login_action()

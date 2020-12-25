@@ -8,6 +8,7 @@ class PurchaseTest(StartEnd):
     """
     测试制单页面
     """
+    @unittest.skip('跳过')
     def test_purchase(self):
         Log().info('----------制单页面测试开始----------')
         self.login_action()  # 重新调用一下登录页面

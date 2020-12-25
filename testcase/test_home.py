@@ -11,8 +11,8 @@ class HomeTest(StartEnd):
     测试跳转应用主页
     断言：头部标题
     """
+    @unittest.skip('跳过')
     def test_home(self):
-
         Log().info('----------主页测试开始----------')
         self.login_action()  # 重新调用一下登录页面
         hp = HomePage(self.driver)

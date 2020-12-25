@@ -16,9 +16,10 @@ class InvalidListTest(StartEnd):
         Log().info('----------已作废列表页面测试开始----------')
         self.login_action()  # 重新调用一下登录页面
         invalid_list_page = ApplyListPage(self.driver)
-        invalid_list_page.invalid_list()
+        # invalid_list_page.all_list()
+        invalid_list_page.invalid_list(5)
         result = self.base_driver.get_element_text(invalid_list_page.get_assertion_ele(), '已作废列表页面，获取断言文本')
-        expect = ['已入库']
+        expect = ['已作废']
         if result not in expect:
             self.save_screenshot('已作废列表页面断言失败')
         self.assertIn(result, expect, msg='已作废列表页面测试失败，实际值{}不在期望值{}中'.format(result, expect))

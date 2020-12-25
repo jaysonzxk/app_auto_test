@@ -20,11 +20,15 @@ class StartEnd(unittest.TestCase, LoginPage):
         self.log = Log()
 
     def tearDown(self) -> None:
-        pass
+        self.driver.quit()
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.driver = android_driver()
+
+    @classmethod
+    def tearDownClass(cls) -> None:
+        pass
 
     def login_action(self, username='80663333', password='Xx123456'):
         while 1:

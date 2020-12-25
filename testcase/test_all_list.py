@@ -8,6 +8,7 @@ class AllApplyListTest(StartEnd):
     """
     全部申请列表页面
     """
+    @unittest.skip('跳过')
     def test_all_list(self):
         """
         全部申请列表页面

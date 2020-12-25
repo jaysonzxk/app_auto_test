@@ -2,7 +2,7 @@ import unittest
 import os
 import time
 import HTMLTestRunner
-
+# from TestRunner import HTMLTestRunner
 
 # 当前脚本所在文件真实路径
 cur_path = os.path.dirname(os.path.abspath(__file__))
@@ -44,12 +44,15 @@ def run_case(allCase, reportName='report'):
     else:
         title = 'api测试报告'
     report_abspath = os.path.join(reportPath, now+"result.html")
-    fp = open(report_abspath, "wb")
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=title, description="用例执行情况")
-
-    # 调用add_case返回值
-    runner.run(all_case)  # discover
-    fp.close()
+    # fp = open(report_abspath, "wb")
+    # runner = HTMLTestRunner(stream=fp, title=title, description="用例执行情况")
+    #
+    # # 调用add_case返回值
+    # runner.run(all_case)  # discover
+    # fp.close()
+    with open(report_abspath, 'wb') as fp:
+        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=title, description="用例执行情况")
+        runner.run(all_case)  # discover
 
 
 def get_report_file(reportPath):

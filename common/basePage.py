@@ -91,8 +91,8 @@ class BasePage:
         f_path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
         file_name = f_path + '\\screenshot\\{}_{}.png'.format(datetime.strftime(datetime.now(), '%Y%m%d%H%M%S'), img_doc)
         self.driver.save_screenshot(file_name)
-        # with open(file_name, mode='rb') as f:
-        #     file = f.read()
+        with open(file_name, mode='rb') as f:
+            file = f.read()
         # allure.attach(file, img_doc, allure.attachment_type.PNG)
         log().info('页面截图文件保存在：{}'.format(file_name))
 
@@ -195,7 +195,7 @@ class BasePage:
             self.save_screenshot(img_doc)
             raise e
 
-    def get_element_text(self, locator, img_doc, timeout=20, frequency=0.5):
+    def get_element_text(self, locator, img_doc, timeout=60, frequency=0.5):
         """
         获取WebElement对象的文本值
         :param locator:元素定位的XPATH元组表达式
@@ -269,11 +269,12 @@ class BasePage:
         滑屏操作
         :param direction: 滑屏方向：上-up；下-down；左-left；右-right
         :param img_doc: 截图说明
+        :param n: 滑动次数
         :return:
         """
         size = self.driver.get_window_size()
         try:
-            log().info("开始向{}方向滑动".format(direction))
+            log().info("开始向{}方向滑动了".format(direction))
             if direction.lower() == 'up_big':
                 time.sleep(1)
                 self.driver.swipe(start_x=size['width'] * 0.5,
@@ -287,7 +288,7 @@ class BasePage:
                     start_x=size['width'] * 0.5,
                     start_y=size['height'] * 0.5,
                     end_x=size['width'] * 0.5,
-                    end_y=size['height'] * 0.4,
+                    end_y=size['height'] * 0.3,
                     duration=200
                 )
             elif direction.lower() == 'down':
@@ -423,3 +424,5 @@ class BasePage:
             return 'True'
         else:
             return 'False'
+
+
